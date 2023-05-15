@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
@@ -96,3 +97,78 @@ border: 1px solid #D14D72;
 border-top: none;
 width: 300px;
 }  
+=======
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 200px;
+    display: flexbox;
+}
+.header{
+    height: 100px;
+    display: flex;
+}
+.header1{
+    width: 10%;
+    height: 100%;
+}
+.header2{
+    width: 30%;
+    height: 100%;
+}
+.header3{
+    width: 30%;
+    height: 100%;
+}
+.header4{
+    width: 30%;
+    height: 100%;
+}
+.aaa{
+    width: 100%;
+    height: 25%;
+    background-color: ;
+}
+.aa{
+    width: 100%;
+    height:500px;
+    background-color: aqua;
+    display: flex;
+}
+.img1{
+    width: 33%;
+    height: 100%;
+    background-color: red;
+}
+.img2{
+    width: 34%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+.img3{
+    width: 33%;
+    height: 100%;
+    background-color: pink;
+}
+.bottom{
+    width: 100%;
+    height: 260px;
+    background-color: blue;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 30%;
+    background-color: cornflowerblue;
+}
+.bright{
+    height: 100%;
+    width: 70%;
+    background-color: deeppink;
+}
+>>>>>>> c1daf29225b072e56254622d42f934819bf1315f
