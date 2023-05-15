@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shopping.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+                Choco<span>Charm</span>
+            </div>
+            <ul>
+                <li class="active"><i class="fa-solid fa-house-user"></i> Home</li>
+                <li><i class="fa-regular fa-user"></i> User</li>
+                <li><i class="fa-solid fa-heart"></i> Favourite</li>
+            </ul>
+             <ul>
+                <li><i class="fa-brands fa-tiktok"></i> Tiktok</li>
+                <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+                <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+            </ul>
+        </div>
+        <div class="center">
+            <div class="search">
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search...">
+                    <button>Search</button>
+                </div>
+            </div>
+
+            <h2>PRODUCTS</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="https://m.media-amazon.com/images/I/51xW9xPBN3L._SX522_.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">KIT KAT</div>
+                        <div class="des">
+                            Chocolate-covered wafer bar with iconic four-finger shape.
+                        </div>
+                        <div class="price">$5.6</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Add to cart</button>
+                        <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="2">
+                    <div class="img">
+                        <img src="https://m.media-amazon.com/images/I/61SRR9W3ZwL._SL1000_.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">NERDS</div>
+                        <div class="des">
+                            Tiny, crunchy, colorful candy with various fruit flavors, popular worldwide.
+                        </div>
+                        <div class="price">$7.8</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Add to cart</button>
+                        <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="3">
+                    <div class="img">
+                        <img src="https://i5.walmartimages.com/asr/da6e17f0-0600-4f83-806d-d6639007b3a5.ad944d5fc3753e32e1da4245571f541f.jpeg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">SWEDISH FISH</div>
+                        <div class="des">
+                            Chewy, fruit-flavored candy shaped like fish, popular in Sweden.
+                        </div>
+                        <div class="price">$7.5</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Add to cart</button>
+                        <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="4">
+                    <div class="img">
+                        <img src="https://m.media-amazon.com/images/I/712oWe+GtYS.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">M&M</div>
+                        <div class="des">
+                            Colorful candy shells with chocolate center, produced by Mars, Inc.
+                        </div>
+                        <div class="price">$6.7</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Add to cart</button>
+                        <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="icons">
+            <a href="main.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <a href="loginsignup.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+        <div class="cart">
+            <div class="name">CART</div>
+            <div class="listCart">
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="shopping.js"></script>
+</body>
+</html>

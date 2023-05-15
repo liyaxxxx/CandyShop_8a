@@ -9,7 +9,7 @@ list-style: none;
 text-decoration: none;
 }
 :root{
-    --main-color: #fd4646;
+    --main-color: deeppink;
     --text-color: #171427;
     --bg-color: #fff;
 }

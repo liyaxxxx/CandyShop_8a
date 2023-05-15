@@ -1,4 +1,5 @@
-*{
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,12 +31,13 @@ header{
     box-shadow: 0.5rem 1rem rgba(0, 0, 0,.1);
 }
 header .logo{
-    font-size: 3rem;
-    color: #333;
-    font-weight: bolder;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
 }
 header .logo span{
-    color: pink;
+    color: #FFABAB;
+    font-family: 'Lobster', cursive;
 }
 header .navbar a{
     font-size: 2rem;
@@ -43,11 +45,11 @@ header .navbar a{
     color: #666;
 }
 header .navbar a:hover{
-    color: pink;
+    color: #FFABAB;
 }
 
 header .icons i:hover{
-    color: pink;
+    color: #FFABAB;
 }
 header .icons i{
     font-size: 2.5rem;
@@ -58,7 +60,7 @@ header .icons i{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(https://images.unsplash.com/photo-1605184861755-8f190fea96a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80)no-repeat;
+    background-color: #FFABAB;
     background-size: cover;
     background-position: center;
 }
@@ -71,13 +73,13 @@ header .icons i{
 }
 .home .content span{
     font-size: 3.5rem;
-    color: deeppink;
+    color: white;
     padding: 1rem 0;
     line-height: 1.5
 }
 .home .content p{
     font-size: 1.5rem;
-    color: #999;
+    color: #333;
     padding: 1rem 0;
     line-height: 1.5
 }

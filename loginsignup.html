@@ -1,50 +1,66 @@
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-<link rel="stylesheet" href="loginsignup.css" />
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./loginsignup.css" />
+</head>
+<body>
 <div class="container">
-        <div class="login-container">
-            <input id="item-1" type="radio" name="item" class="sign-in" checked><label for="item-1" class="item">Log In</label>
-            <input id="item-2" type="radio" name="item" class="sign-up"><label for="item-2" class="item">Sign Up</label>
-            <div class="login-form">
-                <div class="sign-in-htm">
-                    <div class="group">
-                        <input placeholder="Username" id="user" type="text" class="input">
-                    </div>
-                    <div class="group">
-                        <input placeholder="Password" id="pass" type="password" class="input" data-type="password">
-                    </div>
+<div class="tab">
+<button class="tablinks" onclick="openTab(event, 'login')">
+Login
+</button>
+<button class="tablinks" onclick="openTab(event, 'signup')">
+Signup
+</button>
+</div>
 
-                    <div class="group">
-                        <input type="submit" class="button" value="Log In">
-                    </div>
-                    <div class="hr"></div>
-                    <div class="footer">
-                        <a href="#forgot">Back?</a>
-                    </div>
-                </div>
-                <div class="sign-up-htm">
-                    <div class="group">
-                        <input placeholder="Username" id="user" type="text" class="input">
-                    </div>
-
-                    <div class="group">
-                        <input placeholder="Email adress" id="pass" type="text" class="input">
-                    </div>
-
-                    <div class="group">
-                        <input placeholder="Password" id="pass" type="password" class="input" data-type="password">
-                    </div>
-                    <div class="group">
-                        <input placeholder="Repeat password" id="pass" type="password" class="input" data-type="password">
-                    </div>
-
-                    <div class="group">
-                        <input type="submit" class="button" value="Sign Up">
-                    </div>
-                    <div class="hr"></div>
-                    <div class="footer">
-                        <label for="item-1">Already have an account?</a>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="login" class="tabcontent">
+<input type="email" id="lemail" />
+<input type="password" id="lpass" />
+<button onclick="openTab(event, 'forgot')">forgot password</button>
+<button onclick="Login()">Login</button>
+</div>
+<div id="forgot" class="tabcontent">
+<button onclick="openTab(event, 'login')">back to login</button>
+<p>your email</p>
+<input type="email" id="femail" />
+<button onclick="Forgot()">check user</button>
+<hr />
+<p>Your secret question is:</p>
+<p id="secretQuestion"></p>
+<p>Your answer</p>
+<input type="text" id="sAnswer" />
+<button onclick="Check()">check answer</button>
+<p>your pass was:</p>
+<p id="fpass"></p>
+</div>
+<div class="icons">
+    <a href="main.html"><i class="fa fa-heart" aria-hidden="true"></i></a>
+    <a href="shopping.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+    <i class="fa fa-user" aria-hidden="true"></i>
+</div>
+<div id="signup" class="tabcontent">
+<p>firstname</p>
+<input type="text" id="firstname" />
+<p>lastname</p>
+<input type="text" id="lastname" />
+<p>birth date</p>
+<input type="date" id="birth" />
+<p>email</p>
+<input type="email" id="email" />
+<p>password</p>
+<input type="text" id="passOne" />
+<p>rewrite password</p>
+<input type="text" id="passTwo" />
+<p>secret question</p>
+<input type="text" id="question" />
+<p>secret question answer</p>
+<input type="text" id="answer" />
+<button onclick="Signup()">Signup</button>
+</div>
+</div>
+<script src="./loginsignup.js"></script>
+</body>
+</html>
+ 
