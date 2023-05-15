@@ -8,6 +8,39 @@ padding: 0;
 font-family: 'Nunito Sans', sans-serif;
 }
 /* Style the tab */
+.hard {
+  height: 7vh;
+  width: 100%;
+  background-color: #FFABAB;
+  display: flex;
+}
+.home {
+  height: 100%;
+  width: 5%;
+  font-size: 250%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  height: 100%;
+  width: 5%;
+  font-size: 240%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login i{
+  color: red;
+}
 .container{
 width: 100%;
 height: 100vh;
